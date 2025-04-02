@@ -11,18 +11,17 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "noobsdev.electro.client.ElectroClient"
+      "noobsdev.electro.ElectroClient"
     ],
     "main": [
       "noobsdev.electro.Electro"
+    ],
+    "fabric-datagen": [
+      "noobsdev.electro.ElectroModDataGenerator"
     ]
   },
   "mixins": [
-    "electro.mixins.json",
-    {
-      "config": "electro.client.mixins.json",
-      "environment": "client"
-    }
+    "electro.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

@@ -4,5 +4,9 @@
   "block.electro.ruby_block": "Блок Рубина",
   "block.electro.omega_ruby_block": "Омега Блок Рубина",
   "item.electro.raw_ruby" : "Рудной Рубин",
-  "block.electro.raw_ruby_block": "Блок Рудного Рубина"
+  "block.electro.raw_ruby_block": "Блок Рудного Рубина",
+  "item.electro.metal_detector": "§aМеталлоискатель",
+  "tooltip.electro.metal_detector.shift": " §fНажмите §bSHIFT§f для большей информации.",
+  "tooltip.electro.metal_detector": " §fНажмите §cПКМ§f, чтобы ",
+  "tooltip.electro.metal_detector.2": " §fНайти руду под блоком. "
 }

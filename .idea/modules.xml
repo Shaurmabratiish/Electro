@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Electro.client.iml" filepath="$PROJECT_DIR$/.idea/modules/Electro.client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Electro.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Electro.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Electro.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Electro.test.iml" />
     </modules>

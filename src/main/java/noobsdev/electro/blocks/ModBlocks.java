@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.floatprovider.UniformFloatProvider;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import noobsdev.electro.Electro;
+import noobsdev.electro.blocks.custom.SoundBlock;
 
 public class ModBlocks {
 
@@ -21,7 +22,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     public static final Block OMEGA_RUBY_BLOCK = registerBlock("omega_ruby_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN)));
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.GLASS).sounds(BlockSoundGroup.WOOD)));
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 

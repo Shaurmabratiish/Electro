@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "electro:raw_ruby_block",
+    "#minecraft:gold_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:diamond_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:redstone_ores",
+    "#minecraft:coal_ores",
+    "#minecraft:copper_ores"
+  ]
+}

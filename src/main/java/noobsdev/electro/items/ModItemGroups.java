@@ -19,6 +19,9 @@ public class ModItemGroups {
         entries.add(ModBlocks.OMEGA_RUBY_BLOCK);
         entries.add(ModItems.RAW_RUBY);
         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+
+        entries.add(ModItems.METAL);
+
     }).build());
 
 
