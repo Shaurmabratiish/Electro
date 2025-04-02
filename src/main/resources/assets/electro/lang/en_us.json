@@ -8,5 +8,6 @@
   "item.electro.metal_detector": "§aМеталлоискатель",
   "tooltip.electro.metal_detector.shift": " §fНажмите §bSHIFT§f для большей информации.",
   "tooltip.electro.metal_detector": " §fНажмите §cПКМ§f, чтобы ",
-  "tooltip.electro.metal_detector.2": " §fНайти руду под блоком. "
+  "tooltip.electro.metal_detector.2": " §fНайти руду под блоком. ",
+  "block.electro.gem_polishing_station": "Станция Палировки"
 }

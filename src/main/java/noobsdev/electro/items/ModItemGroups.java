@@ -19,7 +19,7 @@ public class ModItemGroups {
         entries.add(ModBlocks.OMEGA_RUBY_BLOCK);
         entries.add(ModItems.RAW_RUBY);
         entries.add(ModBlocks.RAW_RUBY_BLOCK);
-
+        entries.add(ModBlocks.GEM_POLLISHING_STATION);
         entries.add(ModItems.METAL);
 
     }).build());

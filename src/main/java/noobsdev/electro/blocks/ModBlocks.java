@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.floatprovider.UniformFloatProvider;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import noobsdev.electro.Electro;
+import noobsdev.electro.blocks.custom.GemPollishingBlock;
 import noobsdev.electro.blocks.custom.SoundBlock;
 
 public class ModBlocks {
@@ -26,8 +27,9 @@ public class ModBlocks {
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
-    public static final Block RUBY_ORE = registerBlock("ruby_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block GEM_POLLISHING_STATION = registerBlock("gem_polishing_station",
+            new GemPollishingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name,block);
