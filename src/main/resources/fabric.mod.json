@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "electro",
+  "version": "${version}",
+  "name": "Electro",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/electro/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "noobsdev.electro.client.ElectroClient"
+    ],
+    "main": [
+      "noobsdev.electro.Electro"
+    ]
+  },
+  "mixins": [
+    "electro.mixins.json",
+    {
+      "config": "electro.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
