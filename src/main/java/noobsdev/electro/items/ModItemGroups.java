@@ -13,8 +13,12 @@ import noobsdev.electro.blocks.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(Electro.MOD_ID, "ruby"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby")).icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+
         entries.add(ModItems.RUBY);
         entries.add(ModBlocks.RUBY_BLOCK);
+        entries.add(ModBlocks.OMEGA_RUBY_BLOCK);
+        entries.add(ModItems.RAW_RUBY);
+        entries.add(ModBlocks.RAW_RUBY_BLOCK);
     }).build());
 
 

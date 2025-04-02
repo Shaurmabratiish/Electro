@@ -1,4 +1,8 @@
 {
-  "item.electro.ruby" : "Ruby",
-  "itemgroup.ruby": "Electro Group"
+  "item.electro.ruby" : "Рубин",
+  "itemgroup.ruby": "Электро",
+  "block.electro.ruby_block": "Блок Рубина",
+  "block.electro.omega_ruby_block": "Омега Блок Рубина",
+  "item.electro.raw_ruby" : "Рудной Рубин",
+  "block.electro.raw_ruby_block": "Блок Рудного Рубина"
 }

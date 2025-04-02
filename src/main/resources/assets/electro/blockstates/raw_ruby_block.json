@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "electro:block/raw_ruby_block"
+    }
+  }
+}

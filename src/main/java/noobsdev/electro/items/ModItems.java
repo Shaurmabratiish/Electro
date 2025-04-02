@@ -15,9 +15,11 @@ import noobsdev.electro.Electro;
 public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngridientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
+        entries.add(RAW_RUBY);
     }
 
     private static Item registerItem(String name, Item item) {
