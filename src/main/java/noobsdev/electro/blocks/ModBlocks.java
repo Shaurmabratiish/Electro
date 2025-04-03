@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.floatprovider.UniformFloatProvider;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import noobsdev.electro.Electro;
+import noobsdev.electro.blocks.custom.CitrineBlock;
 import noobsdev.electro.blocks.custom.GemPollishingBlock;
 import noobsdev.electro.blocks.custom.SoundBlock;
 
@@ -30,6 +31,10 @@ public class ModBlocks {
 
     public static final Block GEM_POLLISHING_STATION = registerBlock("gem_polishing_station",
             new GemPollishingBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE).nonOpaque()));
+
+    public static final Block CITRINE_BLOCK = registerBlock("citrine_block",
+            new CitrineBlock(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name,block);

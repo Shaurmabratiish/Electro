@@ -15,6 +15,11 @@ public class ModBlockEntities {
                     FabricBlockEntityTypeBuilder.create(GemPolishingStationBlockEntity::new,
                             ModBlocks.GEM_POLLISHING_STATION).build());
 
+    public static final BlockEntityType<CitrineBlockEntity> CITRINE_BLOCK_ENTITY =
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(Electro.MOD_ID, "citrine_block_be"),
+                    FabricBlockEntityTypeBuilder.create(CitrineBlockEntity::new,
+                            ModBlocks.CITRINE_BLOCK).build());
+
     public static void registerBlocksEntities() {
 
     }

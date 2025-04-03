@@ -12,5 +12,8 @@
   "block.electro.gem_polishing_station": " §aСтанция Полировки ",
   "tooltip.electro.gem_polishing_station.shift": " §fНажмите §bSHIFT§f для большей информации. ",
   "tooltip.electro.gem_polishing_station": " §fОбработка любой руды, ",
-  "tooltip.electro.gem_polishing_station.2": " §fКликните §cПКМ§f, Чтобы открыть."
+  "tooltip.electro.gem_polishing_station.2": " §fКликните §cПКМ§f, Чтобы открыть.",
+  "block.electro.citrine_block": " §aСокровищница ",
+  "tooltip.electro.citrine_block.shift": " §fНажмите §bSHIFT§f для большей информации. ",
+  "tooltip.electro.citrine_block": " §fДаёт ресурсы при нажатии. "
 }
