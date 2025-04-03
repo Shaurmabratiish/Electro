@@ -11,6 +11,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import noobsdev.electro.Electro;
+import noobsdev.electro.items.custom.CustomKey;
 import noobsdev.electro.items.custom.MetalDetectorItem;
 
 public class ModItems {
@@ -19,6 +20,9 @@ public class ModItems {
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
     public static final Item METAL = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(12)));
+
+    public static final Item CUSTOM_KEY = registerItem("key",
+            new CustomKey(new FabricItemSettings().maxDamage(12)));
 
     private static void addItemsToIngridientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

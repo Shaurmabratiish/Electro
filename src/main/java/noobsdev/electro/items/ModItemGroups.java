@@ -22,6 +22,7 @@ public class ModItemGroups {
         entries.add(ModBlocks.GEM_POLLISHING_STATION);
         entries.add(ModItems.METAL);
         entries.add(ModBlocks.CITRINE_BLOCK);
+        entries.add(ModItems.CUSTOM_KEY);
     }).build());
 
 

@@ -15,5 +15,9 @@
   "tooltip.electro.gem_polishing_station.2": " §fКликните §cПКМ§f, Чтобы открыть.",
   "block.electro.citrine_block": " §aСокровищница ",
   "tooltip.electro.citrine_block.shift": " §fНажмите §bSHIFT§f для большей информации. ",
-  "tooltip.electro.citrine_block": " §fДаёт ресурсы при нажатии. "
+  "tooltip.electro.citrine_block": " §fДаёт ресурсы при нажатии. ",
+  "tooltip.electro.key.shift": " §fНажмите §bSHIFT§f для большей информации. ",
+  "tooltip.electro.key": " §fИспользуйте на §aСокровищнице§f, чтобы",
+  "tooltip.electro.key.2": " §fОткрыть эту сокровищницу. ",
+  "item.electro.key": " §aКлюч от Сокровищницы"
 }

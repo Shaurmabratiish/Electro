@@ -45,9 +45,9 @@ public class CitrineBlock extends BlockWithEntity implements BlockEntityProvider
         return null;
     }
 
-    @Override
+    /*@Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if (world.isClient) {
+        if (!world.isClient) {
             world.playSound(player, pos, SoundEvents.BLOCK_NOTE_BLOCK_BANJO.value(), SoundCategory.BLOCKS, 1f, 1f);
             BlockEntity blockEntity = world.getBlockEntity(pos);
 
@@ -62,11 +62,10 @@ public class CitrineBlock extends BlockWithEntity implements BlockEntityProvider
 
                 customBlockEntity.incrementClickCount();
                 player.sendMessage(Text.literal(customBlockEntity.getClickCount() + "\n loll"));
-                // Выпадение случайного предмета
-                if (customBlockEntity.getClickCount() < 3) {
-                    dropRandomItem(world, pos);
-                } else {
-                    // Удаляем блок после 3-х кликов
+
+                dropRandomItem(world, pos);
+
+                if (customBlockEntity.getClickCount() > 3) {
                     world.breakBlock(pos, false);
                 }
                 // Сохраняем данные
@@ -76,8 +75,8 @@ public class CitrineBlock extends BlockWithEntity implements BlockEntityProvider
             }
         }
         return ActionResult.SUCCESS;
-    }
-    private void dropRandomItem(World world, BlockPos pos) {
+    }*/
+    public static void dropRandomItem(World world, BlockPos pos) {
 
         for(int x = 1; x <= 3; x++) {
             Item[] items = new Item[] {ModItems.RUBY, Items.DIAMOND, Items.EMERALD};
